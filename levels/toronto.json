@@ -3,9 +3,21 @@
         "Acton" : [
             "Kitchener"
         ],
+        "Allandale Waterfront" : [
+            "Barrie"
+        ],
+        "Aurora" : [
+            "Barrie"
+        ],
+        "Barrie South" : [
+            "Barrie"
+        ],
         "Bloor" : [
             "Kitchener",
             "UP Express"
+        ],
+        "Bradford" : [
+            "Barrie"
         ],
         "Bramalea" : [
             "Kitchener"
@@ -19,6 +31,12 @@
         "Dixie" : [
             "Milton"
         ],
+        "Downsview Park" : [
+            "Barrie"
+        ],
+        "East Gwillimbury" : [
+            "Barrie"
+        ],
         "Erindale" : [
             "Milton"
         ],
@@ -31,6 +49,9 @@
         "Guelph Central" : [
             "Kitchener"
         ],
+        "King City" : [
+            "Barrie"
+        ],
         "Kipling" : [
             "Milton"
         ],
@@ -39,6 +60,9 @@
         ],
         "Lisgar" : [
             "Milton"
+        ],
+        "Maple" : [
+            "Barrie"
         ],
         "Matlon" : [
             "Kitchener"
@@ -52,13 +76,20 @@
         "Mount Pleasant" : [
             "Kitchener"
         ],
+        "Newmarket" : [
+            "Barrie"
+        ],
         "Pearson" : [
             "UP Express"
+        ],
+        "Rutherford" : [
+            "Barrie"
         ],
         "Streetsville" : [
             "Milton"
         ],
         "Union" : [
+            "Barrie",
             "Kitchener",
             "Milton",
             "UP Epxress"
@@ -69,6 +100,34 @@
         ]
     },
     "lines" : {
+        "Barrie" : {
+            "0" : [
+                "Union",
+                "Downsview Park",
+                "Rutherford",
+                "Maple",
+                "King City",
+                "Aurora",
+                "Newmarket",
+                "East Gwillimbury",
+                "Bradford",
+                "Barrie South",
+                "Allandale Waterfront"
+            ],
+            "1" : [
+                "Allandale Waterfront",
+                "Barrie South",
+                "Bradford",
+                "East Gwillimbury",
+                "Newmarket",
+                "Aurora",
+                "King City",
+                "Maple",
+                "Rutherford",
+                "Downsview Park",
+                "Union"
+            ]
+        },
         "Kitchener" : {
             "0" : [
                 "Kitchener",

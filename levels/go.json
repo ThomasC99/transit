@@ -4,8 +4,7 @@
             "Kitchener"
         ],
         "Bloor" : [
-            "Kitchener",
-            "UP Express"
+            "Kitchener"
         ],
         "Bramalea" : [
             "Kitchener"
@@ -25,22 +24,17 @@
         "Kitchener" : [
             "Kitchener"
         ],
-        "Matlon" : [
+        "Malton" : [
             "Kitchener"
         ],
         "Mount Pleasant" : [
             "Kitchener"
         ],
-        "Pearson" : [
-            "UP Express"
-        ],
         "Union" : [
-            "Kitchener",
-            "UP Epxress"
+            "Kitchener"
         ],
         "Weston" : [
-            "Kitchener",
-            "UP Express"
+            "Kitchener"
         ]
     },
     "lines" : {
@@ -72,20 +66,6 @@
                 "Acton",
                 "Guelph Central",
                 "Kitchener"
-            ]
-        },
-        "UP Express" : {
-            "0" : [
-                "Union",
-                "Bloor",
-                "Weston",
-                "Pearson"
-            ],
-            "1" : [
-                "Pearson",
-                "Weston",
-                "Bloor",
-                "Union"
             ]
         }
     }

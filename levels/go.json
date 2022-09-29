@@ -12,6 +12,9 @@
         "Barrie South" : [
             "Barrie"
         ],
+        "Bloomington" : [
+            "Richmond Hill"
+        ],
         "Bloor" : [
             "Kitchener"
         ],
@@ -45,6 +48,9 @@
         "Georgetown" : [
             "Kitchener"
         ],
+        "Gormley" : [
+            "Richmond Hill"
+        ],
         "Guelph Central" : [
             "Kitchener"
         ],
@@ -56,6 +62,9 @@
         ],
         "Kitchener" : [
             "Kitchener"
+        ],
+        "Langstaff" : [
+            "Richmond Hill"
         ],
         "Lisgar" : [
             "Milton"
@@ -78,6 +87,15 @@
         "Newmarket" : [
             "Barrie"
         ],
+        "Old Cummer" : [
+            "Richmond Hill"
+        ],
+        "Oriole" : [
+            "Richmond Hill"
+        ],
+        "Richmond Hill" : [
+            "Richmond Hill"
+        ],
         "Rutherford" : [
             "Barrie"
         ],
@@ -86,7 +104,8 @@
         ],
         "Union" : [
             "Barrie",
-            "Kitchener"
+            "Kitchener",
+            "Richmond Hill"
         ],
         "Weston" : [
             "Kitchener"
@@ -172,6 +191,26 @@
                 "Cooksville",
                 "Dixie",
                 "Kipling",
+                "Union"
+            ]
+        },
+        "Richmond Hill" : {
+            "0" : [
+                "Union",
+                "Oriole",
+                "Old Cummer",
+                "Langstaff",
+                "Richmond Hill",
+                "Gormley",
+                "Bloomington"
+            ],
+            "1" : [
+                "Bloomington",
+                "Gormley",
+                "Richmond Hill",
+                "Langstaff",
+                "Old Cummer",
+                "Oriole",
                 "Union"
             ]
         }

@@ -1,0 +1,32 @@
+{
+    "stations" : {
+        "Bloor" : [
+            "UP Express"
+        ],
+        "Pearson" : [
+            "UP Express"
+        ],
+        "Union" : [
+            "UP Epxress"
+        ],
+        "Weston" : [
+            "UP Express"
+        ]
+    },
+    "lines" : {
+        "UP Express" : {
+            "0" : [
+                "Union",
+                "Bloor",
+                "Weston",
+                "Pearson"
+            ],
+            "1" : [
+                "Pearson",
+                "Weston",
+                "Bloor",
+                "Union"
+            ]
+        }
+    }
+}

@@ -12,6 +12,15 @@
         "Brampton" : [
             "Kitchener"
         ],
+        "Cooksville" : [
+            "Milton"
+        ],
+        "Dixie" : [
+            "Milton"
+        ],
+        "Erindale" : [
+            "Milton"
+        ],
         "Etobicoke North" : [
             "Kitchener"
         ],
@@ -21,13 +30,28 @@
         "Guelph Central" : [
             "Kitchener"
         ],
+        "Kipling" : [
+            "Milton"
+        ],
         "Kitchener" : [
             "Kitchener"
+        ],
+        "Lisgar" : [
+            "Milton"
         ],
         "Malton" : [
             "Kitchener"
         ],
+        "Meadowvale" : [
+            "Kitchener"
+        ],
+        "Milton" : [
+            "Milton"
+        ],
         "Mount Pleasant" : [
+            "Kitchener"
+        ],
+        "Streetsville" : [
             "Kitchener"
         ],
         "Union" : [
@@ -66,6 +90,30 @@
                 "Acton",
                 "Guelph Central",
                 "Kitchener"
+            ]
+        },
+        "Milton" : {
+            "0" : [
+                "Union",
+                "Kipling",
+                "Dixie",
+                "Cooksville",
+                "Erindale",
+                "Streetsville",
+                "Meadowvale",
+                "Lisgar",
+                "Milton"
+            ],
+            "1" : [
+                "Milton",
+                "Lisgar",
+                "Meadowvale",
+                "Streetsville",
+                "Erindale",
+                "Cooksville",
+                "Dixie",
+                "Kipling",
+                "Union"
             ]
         }
     }

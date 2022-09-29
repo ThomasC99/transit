@@ -3,6 +3,9 @@
         "Acton" : [
             "Kitchener"
         ],
+        "Agincourt" : [
+            "Stouffville"
+        ],
         "Allandale Waterfront" : [
             "Barrie"
         ],
@@ -26,6 +29,9 @@
         ],
         "Brampton" : [
             "Kitchener"
+        ],
+        "Centennial" : [
+            "Stouffville"
         ],
         "Cooksville" : [
             "Milton"
@@ -54,6 +60,9 @@
         "Guelph Central" : [
             "Kitchener"
         ],
+        "Kennedy" : [
+            "Stouffville"
+        ],
         "King City" : [
             "Barrie"
         ],
@@ -75,11 +84,20 @@
         "Maple" : [
             "Barrie"
         ],
+        "Markham" : [
+            "Stouffville"
+        ],
         "Meadowvale" : [
             "Kitchener"
         ],
+        "Milliken" : [
+            "Stouffville"
+        ],
         "Milton" : [
             "Milton"
+        ],
+        "Mount Joy" : [
+            "Stouffville"
         ],
         "Mount Pleasant" : [
             "Kitchener"
@@ -90,6 +108,9 @@
         "Old Cummer" : [
             "Richmond Hill"
         ],
+        "Old Elm" : [
+            "Stouffville"
+        ],
         "Oriole" : [
             "Richmond Hill"
         ],
@@ -99,13 +120,20 @@
         "Rutherford" : [
             "Barrie"
         ],
+        "Stouffville" : [
+            "Stouffville"
+        ],
         "Streetsville" : [
             "Kitchener"
         ],
         "Union" : [
             "Barrie",
             "Kitchener",
-            "Richmond Hill"
+            "Richmond Hill",
+            "Stouffville"
+        ],
+        "Unionville" : [
+            "Stouffville"
         ],
         "Weston" : [
             "Kitchener"
@@ -211,6 +239,32 @@
                 "Langstaff",
                 "Old Cummer",
                 "Oriole",
+                "Union"
+            ]
+        },
+        "Stouffville" : {
+            "0" : [
+                "Union",
+                "Kennedy",
+                "Agincourt",
+                "Milliken",
+                "Unionville",
+                "Centennial",
+                "Markham",
+                "Mount Joy",
+                "Stouffville",
+                "Old Elm"
+            ],
+            "1" : [
+                "Old Elm",
+                "Stouffville",
+                "Mount Joy",
+                "Markham",
+                "Centennial",
+                "Unionville",
+                "Milliken",
+                "Agincourt",
+                "Kennedy",
                 "Union"
             ]
         }

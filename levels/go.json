@@ -6,6 +6,9 @@
         "Agincourt" : [
             "Stouffville"
         ],
+        "Ajax" : [
+            "Lakeshore East"
+        ],
         "Allandale Waterfront" : [
             "Barrie"
         ],
@@ -36,6 +39,9 @@
         "Cooksville" : [
             "Milton"
         ],
+        "Danforth" : [
+            "Lakeshore East"
+        ],
         "Dixie" : [
             "Milton"
         ],
@@ -44,6 +50,9 @@
         ],
         "East Gwillimbury" : [
             "Barrie"
+        ],
+        "Eglinton" : [
+            "Lakeshore East"
         ],
         "Erindale" : [
             "Milton"
@@ -59,6 +68,9 @@
         ],
         "Guelph Central" : [
             "Kitchener"
+        ],
+        "Guildwood" : [
+            "Lakeshore East"
         ],
         "Kennedy" : [
             "Stouffville"
@@ -114,11 +126,23 @@
         "Oriole" : [
             "Richmond Hill"
         ],
+        "Oshawa" : [
+            "Lakeshore East"
+        ],
         "Richmond Hill" : [
             "Richmond Hill"
         ],
+        "Pickering" : [
+            "Lakeshore East"
+        ],
+        "Rouge Hill" : [
+            "Lakeshore East"
+        ],
         "Rutherford" : [
             "Barrie"
+        ],
+        "Scarborough" : [
+            "Lakeshore East"
         ],
         "Stouffville" : [
             "Stouffville"
@@ -129,6 +153,8 @@
         "Union" : [
             "Barrie",
             "Kitchener",
+            "Lakeshore East",
+            "Milton",
             "Richmond Hill",
             "Stouffville"
         ],
@@ -137,6 +163,9 @@
         ],
         "Weston" : [
             "Kitchener"
+        ],
+        "Whitby" : [
+            "Lakeshore East"
         ]
     },
     "lines" : {
@@ -196,6 +225,32 @@
                 "Acton",
                 "Guelph Central",
                 "Kitchener"
+            ]
+        },
+        "Lakeshore East" : {
+            "0" : [
+                "Union",
+                "Danforth",
+                "Scarborough",
+                "Eglinton",
+                "Guildwood",
+                "Rouge Hill",
+                "Pickering",
+                "Ajax",
+                "Whitby",
+                "Oshawa"
+            ],
+            "1" : [
+                "Oshawa",
+                "Whitby",
+                "Ajax",
+                "Pickering",
+                "Rouge Hill",
+                "Guildwood",
+                "Eglinton",
+                "Scarborough",
+                "Danforth",
+                "Union"
             ]
         },
         "Milton" : {

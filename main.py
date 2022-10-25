@@ -80,7 +80,10 @@ def get_random_service (station):
     if len(services) == 1:
         return {line : services[0]}
     else:
-        return {line : services[random.randint(0, len(services) - 1)]}
+        try:
+            return {line : services[random.randint(0, len(services) - 1)]}
+        except ValueError:
+            print("Number of services : " + str(len(services)))
 
 current_station = get_random_station("")
 
@@ -97,6 +100,11 @@ while True:
         line = list(service.keys())[0]
         service = service[line]
         print("1. Take service : " + line + " (" + str(lines[line][service][len(lines[line][service]) - 1]) + ")")
+        index = lines[line][service].index(current_station)
+        print("   Calling at : ", end="")
+        for i in range (index + 1, len(lines[line][service]) - 1):
+            print(lines[line][service][i], end=", ")
+        print(lines[line][service][-1])
         print("2. Wait")
         choice = 0
         while choice != 1 and choice != 2:
@@ -130,5 +138,3 @@ while True:
             save()
             print("\n\n")
             break
-
-# 40

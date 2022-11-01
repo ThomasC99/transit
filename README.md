@@ -1,24 +1,17 @@
 The goal of this game is to get from one place to another within a transit system.
 
-You will spawn at a random station.
+You will spawn at a random station, and your goal is to get to another random station in the same map. Some maps will only cover a single system and others will cover an amalgamation of several. You will get point upon arriving at your destination. You can use point to unlock other maps.
 
 
 
 # Summary of Maps
 
-## GO
-GO transit is a commuter rail service in the Greater Toronto area of Ontario. This map features a total of 6 lines and 54 stations.
-
-## Toronto
-Toronto, the largest city in Canada, is renowned for its massive transit system consisting of streetcars, subways, and commuter trains. This map features the UP Express and GO, with a total of 7 lines and 55 stations.
-
-## UP Express
-The UP Express is a short service between Union Station in the Canadian city of Toronto, and its main airport, Toronto Pearson International. This map features a total of 1 line and 4 stations.
+## Ottawa
+Ottawa has a realtively new transit system that started with a total of five stations in 2012 but has increased rapidly in size with a new line of 13 stations oppening in 2019. When the current construction plans are completed in 2025 (don't quote me on that), the system will have a total of 41 stations and 4 lines.
 
 
 
 # Level Costs
 
-## UP Express : 4 (unlocked by default)
-## GO : 54
-## Toronto : 55
+## Ottawa : 3 (unlocked by default)
+## Canada : 3 (TODO)

@@ -4,4 +4,5 @@ You will spawn at a random station, and your goal is to get to another random st
 
 # Level Costs
 
-## Las Vegas : 4
+## Las Vegas : 7
+## Ottawa : 13

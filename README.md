@@ -4,5 +4,8 @@ You will spawn at a random station, and your goal is to get to another random st
 
 # Level Costs
 
+## UP Express : 4
 ## Las Vegas : 7
 ## Ottawa : 13
+
+## Toronto : 38

@@ -1,0 +1,47 @@
+{
+	"stations" : {
+		"Bally's & Paris" : [
+			"Monorail"
+		],
+		"Flaming / Caesars Palace" : [
+			"Monorail"
+		],
+		"Harrah's / The LINQ" : [
+			"Monorail"
+		],
+		"Las Vegas Convention Center" : [
+			"Monorail"
+		],
+		"MGM Grand" : [
+			"Monorail"
+		],
+		"SLS" : [
+			"Monorail"
+		],
+		"Westgate Las Vegas" : [
+			"Monorail"
+		]
+	},
+	"lines" : {
+		"Monorail" : {
+			"0" : [
+				"SLS",
+				"Westgate Las Vegas",
+				"Las Vegas Convention Center",
+				"Harrah's / The LINQ",
+				"Flamingo / Caesars Palace",
+				"Bally's & Paris",
+				"MGM Grand"
+			],
+			"1" : [
+				"MGM Grand",
+				"Bally's & Paris",
+				"Flamingo / Caesers Palace",
+				"Harrah's / The LINQ",
+				"Las Vegas Convention Center",
+				"Westage Las Vegas",
+				"SLS"
+			]
+		}
+	}
+}

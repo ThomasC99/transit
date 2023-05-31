@@ -1,0 +1,420 @@
+{
+	"stations" : {
+		"Bathurst" : [
+			"Line 2"
+		],
+		"Bay" : [
+			"Line 2"
+		],
+		"Bayview" : [
+			"Line 4"
+		],
+		"Bessarion" : [
+			"Line 4"
+		],
+		"Bloor-Yonge" : [
+			"Line 1",
+			"Line 2"
+		],
+		"Broadview" : [
+			"Line 2"
+		],
+		"Castle Frank" : [
+			"Line 2"
+		],
+		"Chester" : [
+			"Line 2"
+		],
+		"Christie" : [
+			"Line 2"
+		],
+		"College" : [
+			"Line 1"
+		],
+		"Coxwell" : [
+			"Line 2"
+		],
+		"Davisville" : [
+			"Line 1"
+		],
+		"Don Mills" : [
+			"Line 4"
+		],
+		"Donlands" : [
+			"Line 2"
+		],
+		"Downsview Park" : [
+			"Line 1"
+		],
+		"Dufferin" : [
+			"Line 2"
+		],
+		"Dundas" : [
+			"Line 1"
+		],
+		"Dundas West" : [
+			"Line 2"
+		],
+		"Dupont" : [
+			"Line 1"
+		],
+		"Eglinton" : [
+			"Line 1"
+		],
+		"Eglinton West" : [
+			"Line 1"
+		],
+		"Ellesmere" : [
+			"Line 3"
+		],
+		"Finch" : [
+			"Line 1"
+		],
+		"Finch West" : [
+			"Line 1"
+		],
+		"Glencairn" : [
+			"Line 1"
+		],
+		"Greenwood" : [
+			"Line 2"
+		],
+		"High Park" : [
+			"Line 2"
+		],
+		"Highway 407" : [
+			"Line 1"
+		],
+		"Islington" : [
+			"Line 2"
+		],
+		"Jane" : [
+			"Line 2"
+		],
+		"Keele" : [
+			"Line 2"
+		],
+		"Kennedy" : [
+			"Line 2",
+			"Line 3"
+		],
+		"King" : [
+			"Line 1"
+		],
+		"Kipling" : [
+			"Line 2"
+		],
+		"Lansdowne" : [
+			"Line 2"
+		],
+		"Lawrence" : [
+			"Line 1"
+		],
+		"Lawrence East" : [
+			"Line 3"
+		],
+		"Lawrence West" : [
+			"Line 1"
+		],
+		"Leslie" : [
+			"Line 4"
+		],
+		"Main Street" : [
+			"Line 2"
+		],
+		"McCowan" : [
+			"Line 3"
+		],
+		"Midland" : [
+			"Line 3"
+		],
+		"Museum" : [
+			"Line 1"
+		],
+		"North York Centre" : [
+			"Line 1"
+		],
+		"Old Mill" : [
+			"Line 2"
+		],
+		"Osgoode" : [
+			"Line 1"
+		],
+		"Ossington" : [
+			"Line 2"
+		],
+		"Pape" : [
+			"Line 2"
+		],
+		"Pioneer Village" : [
+			"Line 1"
+		],
+		"Queen" : [
+			"Line 1"
+		],
+		"Queen's Park" : [
+			"Line 1"
+		],
+		"Rosedale" : [
+			"Line 1"
+		],
+		"Royal York" : [
+			"Line 2"
+		],
+		"Runnymede" : [
+			"Line 2"
+		],
+		"Scarborough Centre" : [
+			"Line 3"
+		],
+		"Sheppard-Yonge" : [
+			"Line 1",
+			"Line 4"
+		],
+		"Sheppard West" : [
+			"Line 1"
+		],
+		"Sherbourne" : [
+			"Line 2"
+		],
+		"Spadina" : [
+			"Line 1",
+			"Line 2"
+		],
+		"St Andrew" : [
+			"Line 1"
+		],
+		"St Clair" : [
+			"Line 1"
+		],
+		"St Clair West" : [
+			"Line 1"
+		],
+		"St George" : [
+			"Line 1",
+			"Line 2"
+		],
+		"St Patrick" : [
+			"Line 1"
+		],
+		"Summerhill" : [
+			"Line 1"
+		],
+		"Union" : [
+			"Line 1"
+		],
+		"Vaughan Metropolitan Centre" : [
+			"Line 1"
+		],
+		"Victoria Park" : [
+			"Line 2"
+		],
+		"Warden" : [
+			"Line 2"
+		],
+		"Wellesley" : [
+			"Line 1"
+		],
+		"Wilson" : [
+			"Line 1"
+		],
+		"Woodbine" : [
+			"Line 2"
+		],
+		"York Mills" : [
+			"Line 1"
+		],
+		"York University" : [
+			"Line 1"
+		],
+		"Yorkdale" : [
+			"Line 1"
+		]
+	},
+	"lines" : {
+		"Line 1" : {
+			"Finch" : [
+				"Vaughan Metropolitan Centre",
+				"Highway 407",
+				"Pioneer Village",
+				"York University",
+				"Finch West",
+				"Downsview Park",
+				"Sheppard West",
+				"Wilson",
+				"Yorkdale",
+				"Lawrence West",
+				"Glencairn",
+				"Eglington West",
+				"St Clair West",
+				"Dupont",
+				"Spadina",
+				"St George",
+				"Museum",
+				"Queen's Park",
+				"St Patrick",
+				"Osgoode",
+				"St Andrew",
+				"Union",
+				"King",
+				"Queen",
+				"Dundas",
+				"College",
+				"Wellesley",
+				"Bloor-Yonge",
+				"Rosedale",
+				"Summerhill",
+				"St Clair",
+				"Davisville",
+				"Eglinton",
+				"Lawrence",
+				"York Mills",
+				"Sheppard-Yonge",
+				"North York Centre",
+				"Finch"
+			],
+			"Vaughan Metropolitan Centre" : [
+				"Finch",
+				"North York Centre",
+				"Sheppard-Yonge",
+				"York Mills",
+				"Lawrence",
+				"Eglinton",
+				"Davisville",
+				"St Clair",
+				"Summerhill",
+				"Rosedale",
+				"Bloor-Yonge",
+				"Wellesley",
+				"College",
+				"Dundas",
+				"Queen",
+				"King",
+				"Union",
+				"St Andrew",
+				"Osgoode",
+				"St Patrick",
+				"Queen's Park",
+				"Museum",
+				"St George",
+				"Spadina",
+				"Dupont",
+				"St Clair West",
+				"Eglinton West",
+				"Glencairn",
+				"Lawrence West",
+				"Yorkdale",
+				"Wilson",
+				"Sheppard West",
+				"Downsview Park",
+				"Finch West",
+				"York University",
+				"Pioneer Village",
+				"Highway 407",
+				"Vaughan Metropolitan Centre"
+			]
+		},
+		"Line 2" : {
+			"Kennedy" : [
+				"Kipling",
+				"Islington",
+				"Royal York",
+				"Old Mill",
+				"Jane",
+				"Runnymede",
+				"High Park",
+				"Keele",
+				"Dundas West",
+				"Lansdowne",
+				"Dufferin",
+				"Ossington",
+				"Christie",
+				"Bathurst",
+				"Spadina",
+				"St George",
+				"Bay",
+				"Bloor-Yonge",
+				"Sherbourne",
+				"Castle Frank",
+				"Broadview",
+				"Chester",
+				"Pape",
+				"Donlands",
+				"Greenwood",
+				"Coxwell",
+				"Woodbine",
+				"Main Street",
+				"Victoria Park",
+				"Warden",
+				"Kennedy"
+			],
+			"Kipling" : [
+				"Kennedy",
+				"Warden",
+				"Victoria Park",
+				"Main Street",
+				"Woodbine",
+				"Coxwell",
+				"Greenwood",
+				"Donlands",
+				"Pape",
+				"Chester",
+				"Broadview",
+				"Castle Frank",
+				"Sherbourne",
+				"Bloor-Yonge",
+				"Bay",
+				"St George",
+				"Spadina",
+				"Bathurst",
+				"Christie",
+				"Ossington",
+				"Dufferin",
+				"Lansdowne",
+				"Dundas West",
+				"Keele",
+				"High Park",
+				"Runnymede",
+				"Jane",
+				"Old Mill",
+				"Royal York",
+				"Islington",
+				"Kipling"
+			]
+		},
+		"Line 3" : {
+			"McCowan" : [
+				"Kennedy",
+				"Lawrence East",
+				"Ellesmere",
+				"Midland",
+				"Scarborough Centre",
+				"McCowan"
+			],
+			"Kennedy" : [
+				"McCowan",
+				"Scarborough Centre",
+				"Midland",
+				"Ellesmere",
+				"Lawrence East",
+				"Kennedy"
+			]
+		},
+		"Line 4" : {
+			"Don Mills" : [
+				"Sheppard-Yonge",
+				"Bayview",
+				"Bessarion",
+				"Leslie",
+				"Don Mills"
+			],
+			"Sheppard-Yonge" : [
+				"Don Mills",
+				"Leslie",
+				"Bessarion",
+				"Bayview",
+				"Sheppard-Yonge"
+			]
+		}
+	}
+}

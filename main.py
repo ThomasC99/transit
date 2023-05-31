@@ -2,25 +2,60 @@ import json
 import random
 import os
 
-file = open("save.json", "r")
-save_data = file.read()
-file.close()
-save_data = json.loads(save_data)
+def get_save_data ():
+    file = open("save.json", "r")
+    save_data = file.read()
+    file.close()
+    save_data = json.loads(save_data)
+    return save_data
 
 def save ():
     file = open("save.json", "w")
     file.write(json.dumps(save_data, indent=4))
     file.close()
 
-os.system("ls levels > level-list.txt")
-file = open("level-list.txt")
-level_list = file.read()
-file.close()
-os.system("rm level-list.txt")
-level_list = level_list.replace(".json", "")
-level_list = level_list.split("\n")
-level_list.remove("")
+def get_level_list ():
+    os.system("ls levels > level-list.txt")
+    file = open("level-list.txt")
+    level_list = file.read()
+    file.close()
+    os.system("rm level-list.txt")
+    level_list = level_list.replace(".json", "")
+    level_list = level_list.split("\n")
+    level_list.remove("")
+    return level_list
 
+def get_random_station (station):
+    station_list = list(stations.keys())
+    if station in station_list:
+        station_list.remove(station)
+    return station_list[random.randint(0, len(station_list) - 1)]
+
+def get_random_line (station):
+    station_lines = stations[station]
+    if len(station_lines) > 1:
+        return station_lines[random.randint(0, len(station_lines) - 1)]
+    else:
+        return station_lines[0]
+
+def get_random_service (station):
+    line = get_random_line(station)
+    services = lines[line]
+    avail_services = {}
+    for service in services:
+        if services[service][-1] != station and station in services[service]:
+            avail_services[service] = services[service]
+    services = list(avail_services.keys())
+    if len(services) == 1:
+        return {line : services[0]}
+    else:
+        try:
+            return {line : services[random.randint(0, len(services) - 1)]}
+        except ValueError:
+            print("Number of services : " + str(len(services)))
+
+save_data = get_save_data()
+level_list = get_level_list()
 level = None
 for i in range (0, len(level_list)):
     print(str(i + 1) + ". " + level_list[i], end="")
@@ -55,35 +90,6 @@ stations = data["stations"]
 lines = data["lines"]
 
 map = {}
-
-def get_random_station (station):
-    station_list = list(stations.keys())
-    if station in station_list:
-        station_list.remove(station)
-    return station_list[random.randint(0, len(station_list) - 1)]
-
-def get_random_line (station):
-    station_lines = stations[station]
-    if len(station_lines) > 1:
-        return station_lines[random.randint(0, len(station_lines) - 1)]
-    else:
-        return station_lines[0]
-
-def get_random_service (station):
-    line = get_random_line(station)
-    services = lines[line]
-    avail_services = {}
-    for service in services:
-        if services[service][-1] != station:
-            avail_services[service] = services[service]
-    services = list(avail_services.keys())
-    if len(services) == 1:
-        return {line : services[0]}
-    else:
-        try:
-            return {line : services[random.randint(0, len(services) - 1)]}
-        except ValueError:
-            print("Number of services : " + str(len(services)))
 
 current_station = get_random_station("")
 

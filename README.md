@@ -4,8 +4,10 @@ You will spawn at a random station, and your goal is to get to another random st
 
 # Level Costs
 
-## UP Express : 4
-## Las Vegas : 7
-## Ottawa : 13
-## GO : 68
-## Toronto : 75
+## Caltrain : 29
+
+## BART : 0
+## vta : 0
+## alamont corridor express : 0
+## capitol corridor : 0
+## bay area : 0

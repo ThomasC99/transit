@@ -4,10 +4,10 @@ You will spawn at a random station, and your goal is to get to another random st
 
 # Level Costs
 
+## Alamont Corridor Express : 10
 ## Caltrain : 29
+## VTA : 59
 
 ## BART : 0
-## vta : 0
-## alamont corridor express : 0
 ## capitol corridor : 0
 ## bay area : 0

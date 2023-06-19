@@ -1,0 +1,62 @@
+{
+	"stations" : {
+		"Fremont" : [
+			"Alamont Corridor Express"
+		],
+		"Great America" : [
+			"Alamont Corridor Express"
+		],
+		"Lanthrop/Manteca" : [
+			"Alamont Corridor Express"
+		],
+		"Livermore" : [
+			"Alamont Corridor Express"
+		],
+		"Pleasanton" : [
+			"Alamont Corridor Express"
+		],
+		"San Jose Diridon" : [
+			"Alamont Corridor Express"
+		],
+		"Santa Clara" : [
+			"Alamont Corridor Express"
+		],
+		"Stockton" : [
+			"Alamont Corridor Express"
+		],
+		"Tracy" : [
+			"Alamont Corridor Express"
+		],
+		"Vasco Road" : [
+			"Alamont Corridor Express"
+		]
+	},
+	"lines" : {
+		"Alamont Corridor Express" : {
+			"Stockton" : [
+				"San Jose Diridon",
+				"Santa Clara",
+				"Great America",
+				"Fremont",
+				"Pleasanton",
+				"Livermore",
+				"Vasco Road",
+				"Tracy",
+				"Lathrop/Manteca",
+				"Stockton"
+			],
+			"San Jose Diridon" : [
+				"Stockton",
+				"Lantrop/Manteca",
+				"Tracy",
+				"Vasco Road",
+				"Livermore",
+				"Pleasanton",
+				"Fremont",
+				"Great America",
+				"Sanata Clara",
+				"San Jose Diridon"
+			]
+		}
+	}
+}

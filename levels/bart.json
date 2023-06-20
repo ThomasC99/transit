@@ -1,0 +1,489 @@
+{
+	"stations" : {
+		"12th Street/Oakland City Center" : [
+			"Yellow Line",
+			"Orange Line",
+			"Red Line"
+		],
+		"16th Street Mission" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"19th Street/Oakland" : [
+			"Yellow Line",
+			"Orange Line",
+			"Red Line"
+		],
+		"24th Street Mission" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Antioch" : [
+			"Yellow Line"
+		],
+		"Ashby" : [
+			"Orange Line",
+			"Red Line"
+		],
+		"Balboa Park" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Bay Fair" : [
+			"Blue Line",
+			"Orange Line",
+			"Green Line"
+		],
+		"Berryessa/North San Jose" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"Castro Valley" : [
+			"Blue Line"
+		],
+		"Civic Center/UN Plaza" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Colma" : [
+			"Yellow Line",
+			"Red Line"
+		],
+		"Coliseum" : [
+			"Grey Line",
+			"Blue Line",
+			"Orange Line",
+			"Green Line"
+		],
+		"Concord" : [
+			"Yellow Line"
+		],
+		"Daly City" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Downtown Berkeley" : [
+			"Orange Line",
+			"Red Line"
+		],
+		"Dublin/Pleasanton" : [
+			"Blue Line"
+		],
+		"El Cerrito del Norte" : [
+			"Orange Line",
+			"Red Line"
+		],
+		"El Cerrito Plaza" : [
+			"Orange Line",
+			"Red Line"
+		],
+		"Embarcadero" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Fremont" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"Fruitvale" : [
+			"Blue Line",
+			"Orange Line",
+			"Green Line"
+		],
+		"Glen Park" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Hayward" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"Lafayette" : [
+			"Yellow Line"
+		],
+		"Lake Merritt" : [
+			"Blue Line",
+			"Orange Line",
+			"Green Line"
+		],
+		"MacArthur" : [
+			"Yellow Line",
+			"Orange Line",
+			"Red Line"
+		],
+		"Millbrae" : [
+			"Red Line"
+		],
+		"Milpitas" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"Montgomery Street" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"North Berkeley" : [
+			"Orange Line",
+			"Red Line"
+		],
+		"North Concord/Martinez" : [
+			"Yellow Line"
+		],
+		"OAK" : [
+			"Grey Line"
+		],
+		"Orinda" : [
+			"Yellow Line"
+		],
+		"Pittsburg/Bay Point" : [
+			"Yellow Line"
+		],
+		"Pittsburg Center" : [
+			"Yellow Line"
+		],
+		"Pleasant Hill/Contra Costa Center" : [
+			"Yellow Line"
+		],
+		"Powell Street" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		],
+		"Richmond" : [
+			"Orange Line",
+			"Red Line"
+		],
+		"Rockridge" : [
+			"Yellow Line"
+		],
+		"San Bruno" : [
+			"Yellow Line",
+			"Red Line"
+		],
+		"San Leandro" : [
+			"Blue Line",
+			"Orange Line",
+			"Green Line"
+		],
+		"SFO" : [
+			"Yellow Line",
+			"Red Line"
+		],
+		"South Hayward" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"South San Francisco" : [
+			"Yellow Line",
+			"Red Line"
+		],
+		"Unoin City" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"Walnut Creek" : [
+			"Yellow Line"
+		],
+		"Warm Springs/South Fremont" : [
+			"Orange Line",
+			"Green Line"
+		],
+		"West Dublin/Pleasanton" : [
+			"Blue Line"
+		],
+		"West Oakland" : [
+			"Yellow Line",
+			"Blue Line",
+			"Green Line",
+			"Red Line"
+		]
+	},
+	"lines" : {
+		"Yellow Line" : {
+			"Pittsburgh/Bay Point" : [
+				"SFO",
+				"San Bruno",
+				"South San Francisco",
+				"Colma",
+				"Daly City",
+				"Balboa Park",
+				"Glen Park",
+				"24th Street Mission",
+				"16th Street Mission",
+				"Civic Center/UN Plaza",
+				"Powell Street",
+				"Montgomery Street",
+				"Embarcadero",
+				"West Oakland",
+				"12th Street/Oakland City Center",
+				"19th Street/Oakland",
+				"MacArthur",
+				"Rockridge",
+				"Orinda",
+				"Lafayette",
+				"Walnut Creek",
+				"Pleasant Hill/Contra Costa Center",
+				"Concord",
+				"North Concord/Martinez",
+				"Pittsburg/Bay Point"
+			],
+			"SFO " : [
+				"Pittsburg/Bay Point",
+				"North Concord/Martinez",
+				"Concord",
+				"Pleasant Hill/Contra Costa Center",
+				"Walnut Creek",
+				"Lafayette",
+				"Orinda",
+				"Rockridge",
+				"MacArthur",
+				"19th Street/Oakland",
+				"12th Street/Oakland City Center",
+				"West Oakland",
+				"Embarcadero",
+				"Montgomery Street",
+				"Powell Street",
+				"Civic Center/UN Plaza",
+				"16th Street Mission",
+				"24th Street Mission",
+				"Glen Park",
+				"Balboa Park",
+				"Daly City",
+				"Colma",
+				"South San Francisco",
+				"San Bruno",
+				"SFO"
+			],
+			"Antioch" : [
+				"Pittsburg/Bay Point",
+				"Pittsburg Center",
+				"Antioch"
+			],
+			"Pittsburg / Bay Point (eBART)" : [
+				"Antioch",
+				"Pittsburg Center",
+				"Pittsburg/Bay Point"
+			]
+		},
+		"Blue Line" : {
+			"Dublin/Pleasanton" : [
+				"Daly City",
+				"Balboa Park",
+				"Glen Park",
+				"24th Street Mission",
+				"16th Street Mission",
+				"Civic Center/UN Plaza",
+				"Powell Street",
+				"Montgomery Street",
+				"Embarcadero",
+				"West Oakland",
+				"Lake Merritt",
+				"Fruitvale",
+				"Coliseum",
+				"San Leandro",
+				"Bay Fair",
+				"Castro Valley",
+				"West Dublin/Pleasanton",
+				"Dublin/Pleasanton"
+			],
+			"Daly City" : [
+				"Dublin/Pleasanton",
+				"West Dublin/Pleasanton",
+				"Castro Valley",
+				"Bay Fair",
+				"San Leandro",
+				"Coliseum",
+				"Fruitvale",
+				"Lake Merritt",
+				"West Oakland",
+				"Embardacero",
+				"Montgomery Street",
+				"Powell Street",
+				"Civic Center/UN Plaza",
+				"16th Street Mission",
+				"24th Street Mission",
+				"Glen Park",
+				"Balboa Park",
+				"Daly City"
+			]
+		},
+		"Orange Line" : {
+			"Richmond" : [
+				"Berryessa/North San Jose",
+				"Milpitas",
+				"Warm Springs/South Fremont",
+				"Fremont",
+				"Union City",
+				"South Hayward",
+				"Hayward",
+				"Bay Fair",
+				"San Leandro",
+				"Coliseum",
+				"Fruitvale",
+				"Lake Merritt",
+				"12th Street/Oakland City Center",
+				"19th Street/Oakland",
+				"MacArthur",
+				"Ashby",
+				"Downtown Berkeley",
+				"El Cerrito Plaza",
+				"El Cerrito del Norte",
+				"Richmond"
+			],
+			"Berryessa" : [
+				"Richmond",
+				"El Cerrito del Norte",
+				"El Cerrito Plaza",
+				"North Berkeley",
+				"Downtown Berkeley",
+				"Ashby",
+				"MacArthur",
+				"19th Street/Oakland",
+				"12th Street/Oakalnd City Center",
+				"Lake Merritt",
+				"Fruitvale",
+				"Coliseum",
+				"San Leandro",
+				"Bay Fair",
+				"Hayward",
+				"South Hayward",
+				"Union City",
+				"Fremont",
+				"Warm Springs/South Fremont",
+				"Milpitas",
+				"Berryessa/North San Jose"
+			]
+		},
+		"Green Line" : {
+			"Berryessa" : [
+				"Daly City",
+				"Balboa Park",
+				"Glen Park",
+				"24th Street Mission",
+				"16th Street Mission",
+				"Civic Center/UN Plaza",
+				"Powell Street",
+				"Montgomery Street",
+				"Embarcadero",
+				"West Oakland",
+				"Lake Merritt",
+				"Fruitvale",
+				"Coliseum",
+				"San Leandro",
+				"Bay Fair",
+				"Hayward",
+				"South Hayward",
+				"Union City",
+				"Fremont",
+				"Warm Springs/South Fremont",
+				"Milpitas",
+				"Berryessa/North San Jose"
+			],
+			"Daly City" : [
+				"Berryessa/North San Jose",
+				"Milpitas",
+				"Warm Springs/South Fremont",
+				"Fremont",
+				"Union City",
+				"South Hayward",
+				"Hayward",
+				"Bay Fair",
+				"San Leandro",
+				"Coliseum",
+				"Fruitvale",
+				"Lake Merritt",
+				"West Oakland",
+				"Embarcadero",
+				"Montgomery Street",
+				"Powell Street",
+				"Civic Center/UN Plaza",
+				"16th Street Mission",
+				"24th Street Mission",
+				"Glen Park",
+				"Balboa Park",
+				"Daly City"
+			]
+		},
+		"Red Line" : {
+			"Richmond" : [
+				"SFO",
+				"Millbrae",
+				"San Bruno",
+				"South San Francisco",
+				"Colma",
+				"Daly City",
+				"Balboa Park",
+				"Glen Park",
+				"24th Street Mission",
+				"16th Street Mission",
+				"Civic Center/UN Plaza",
+				"Powell Street",
+				"Montgomery Street",
+				"Embarcadero",
+				"West Oakland",
+				"12th Steet/Oakalnd City Center",
+				"19th Street/Oakland",
+				"MacArthur",
+				"Ashby",
+				"Downtown Berkeley",
+				"North Berkeley",
+				"El Cerrito Plaza",
+				"El Cerrito del Norte",
+				"Richmond"
+			],
+			"SFO " : [
+				"Richmond",
+				"El Cerrito del Norte",
+				"El Cerrito Plaza",
+				"North Berkeley",
+				"Downtown Berkeley",
+				"Ashby",
+				"MacArthur",
+				"19th Street/Oakland",
+				"12th Street/Oakland City Center",
+				"West Oakland",
+				"Embarcadero",
+				"Montgomery Street",
+				"Powell Street",
+				"Civic Center/UN Plaza",
+				"16th Street Mission",
+				"24th Street Mission",
+				"Glen Park",
+				"Balboa Park",
+				"Daly City",
+				"Colma",
+				"South San Francisco",
+				"San Bruno",
+				"Millbrae",
+				"SFO"
+			]
+		},
+		"Grey Line" : {
+			"Coliseum" : [
+				"OAK",
+				"Coliseum"
+			],
+			"OAK" : [
+				"Coliseum",
+				"OAK"
+			]
+		}
+	}
+}

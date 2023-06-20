@@ -6,8 +6,5 @@ You will spawn at a random station, and your goal is to get to another random st
 
 ## Alamont Corridor Express : 10
 ## Caltrain : 29
+## BART : 50
 ## VTA : 59
-
-## BART : 0
-## capitol corridor : 0
-## bay area : 0

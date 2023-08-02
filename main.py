@@ -15,14 +15,10 @@ def save ():
     file.close()
 
 def get_level_list ():
-    os.system("ls levels > level-list.txt")
-    file = open("level-list.txt")
+    file = open("levels/levels.json")
     level_list = file.read()
     file.close()
-    os.system("rm level-list.txt")
-    level_list = level_list.replace(".json", "")
-    level_list = level_list.split("\n")
-    level_list.remove("")
+    level_list = json.loads(level_list)
     return level_list
 
 def get_random_station (station):
@@ -57,31 +53,33 @@ def get_random_service (station):
 save_data = get_save_data()
 level_list = get_level_list()
 level = None
-for i in range (0, len(level_list)):
-    print(str(i + 1) + ". " + level_list[i], end="")
-    if (level_list[i] not in save_data["levels"]):
+
+for i in range (0, len(list(level_list.keys()))):
+    print(str(i + 1) + ". " + list(level_list.keys())[i], end="")
+    if (list(level_list.keys())[i] not in save_data["levels"]):
         print(" (Locked)", end="")
     print()
 choice = 0
+
 while choice < 1 or choice > len(level_list):
     choice = int(input(""))
     print("\n\n")
-    if level_list[choice - 1] not in save_data["levels"]:
-        file = open("levels/" + level_list[choice - 1] + ".json", "r")
+    if list(level_list.keys())[choice - 1] not in save_data["levels"]:
+        file = open("levels/" + level_list[list(level_list.keys())[choice - 1]], "r")
         cost = len(json.loads(file.read())["stations"])
-        print("Unlock " + level_list[choice - 1] + " for " + str(cost) + "? you have " + str(save_data["funds"]))
+        print("Unlock " + list(level_list.keys())[choice - 1] + " for " + str(cost) + "? you have " + str(save_data["funds"]))
         answer = input("y / n : ")
         if answer == "y" and save_data["funds"] >= cost:
             save_data["funds"] -= cost
-            save_data["levels"].append(level_list[choice - 1])
+            save_data["levels"].append(list(level_list.keys())[choice - 1])
             print("You now have " + str(save_data["funds"]) + " funds")
             print("\n\n")
             save()
-            level = level_list[choice - 1]
+            level = list(level_list.keys())[choice - 1]
     else:
-        level = level_list[choice - 1]
+        level = list(level_list.keys())[choice - 1]
 
-file = open("levels/" + level + ".json", "r")
+file = open("levels/" + level_list[level], "r")
 data = file.read()
 file.close()
 

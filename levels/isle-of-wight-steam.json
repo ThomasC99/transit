@@ -1,0 +1,32 @@
+{
+	"stations" : {
+		"Ashey" : [
+			"Isle of Wight Steam Railway"
+		],
+		"Havenstreet" : [
+			"Isle of Wight Steam Railway"
+		],
+		"Smallbrook Junction" : [
+			"Isle of Wight Steam Railway"
+		],
+		"Wootton" : [
+			"Isle of Wight Steam Railway"
+		]
+	},
+	"lines" : {
+		"Isle of Wight Steam Railway" : {
+			"Smallbrook Junction" : [
+				"Wootton",
+				"Havenstreet",
+				"Ashey",
+				"Smallbrook Junction"
+			],
+			"Wootton" : [
+				"Smallbrook Junction",
+				"Ashey",
+				"Havenstreet",
+				"Wootton"
+			]
+		}
+	}
+}

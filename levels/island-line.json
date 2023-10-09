@@ -1,0 +1,52 @@
+{
+	"stations" : {
+		"Brading" : [
+			"Island Line"
+		],
+		"Lake" : [
+			"Island Line"
+		],
+		"Ryde Esplanade" : [
+			"Island Line"
+		],
+		"Ryde Pier Head" : [
+			"Island Line"
+		],
+		"Ryde St John's Road" : [
+			"Island Line"
+		],
+		"Sandown" : [
+			"Island Line"
+		],
+		"Shanklin" : [
+			"Island Line"
+		],
+		"Smallbrook Junction" : [
+			"Island Line"
+		]
+	},
+	"lines" : {
+		"Island Line" : {
+			"Ryde Pier Head" : [
+				"Shanklin",
+				"Lake",
+				"Sandown",
+				"Brading",
+				"Smallbrook Junction",
+				"Ryde St John's Road",
+				"Ryde Esplanade",
+				"Ryde Pier Head"
+			],
+			"Shanklin" : [
+				"Ryde Pier Head",
+				"Ryde Esplanade",
+				"Ryde St John's Road",
+				"Smallbrook Junction",
+				"Brading",
+				"Sandown",
+				"Lake",
+				"Shanklin"
+			]
+		}
+	}
+}

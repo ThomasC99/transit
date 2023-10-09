@@ -4,4 +4,6 @@ You will spawn at a random station, and your goal is to get to another random st
 
 # Level Costs
 
-## Ottawa : 13
+## Island Line (unlocked by default) : 8
+
+## Isle of Wight Steam Railway : 4

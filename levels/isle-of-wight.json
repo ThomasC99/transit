@@ -1,0 +1,71 @@
+{
+	"stations" : {
+		"Ashey" : [
+			"Isle of Wight Steam Railway"
+		],
+		"Brading" : [
+			"Island Line"
+		],
+		"Havenstreet" : [
+			"Isle of Wight Steam Railway"
+		],
+		"Lake" : [
+			"Island Line"
+		],
+		"Shanklin" : [
+			"Island Line"
+		],
+		"Smallbrook Junction" : [
+			"Island Line",
+			"Isle of Wight Steam Railway"
+		],
+		"Ryde Esplanade" : [
+			"Island Line"
+		],
+		"Ryde Pier Head" : [
+			"Island Line"
+		],
+		"Ryde St John's Road" : [
+			"Island Line"
+		],
+		"Wootton" : [
+			"Isle of Wight Steam Railway"
+		]
+	},
+	"lines" : {
+		"Island Line" : {
+			"Ryde Pier Head" : [
+				"Shanklin",
+				"Lake",
+				"Brading",
+				"Smallbrook Junction",
+				"Ryde St John's Road",
+				"Ryde Esplanade",
+				"Ryde Pier Head"
+			],
+			"Shanklin" : [
+				"Ryde Pier Head",
+				"Ryde Esplanade",
+				"Ryde St John's Road",
+				"Smallbrook Junction",
+				"Brading",
+				"Lake",
+				"Shanklin"
+			]
+		},
+		"Isle of Wight Steam Railway" : {
+			"Smallbrook Junction" : [
+				"Wootton",
+				"Havenstreet",
+				"Ashey",
+				"Smallbrook Junction"
+			],
+			"Wootton" : [
+				"Smallbrook Junction",
+				"Ashey",
+				"Havenstreet",
+				"Wootton"
+			]
+		}
+	}
+}

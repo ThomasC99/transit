@@ -1,0 +1,444 @@
+{
+	"stations" : {
+		"Aigburth" : [
+			"Northern Line"
+		],
+		"Ainsdale" : [
+			"Northern Line"
+		],
+		"Aintree" : [
+			"Northern Line"
+		],
+		"Aughton" : [
+			"Northern Line"
+		],
+		"Bache" : [
+			"Wirral Line"
+		],
+		"Bank Hall" : [
+			"Northern Line"
+		],
+		"Bebington" : [
+			"Wirral Line"
+		],
+		"Bidston" : [
+			"Wirral Line"
+		],
+		"Birkdale" : [
+			"Northern Line"
+		],
+		"Birkenhead Central" : [
+			"Wirral Line"
+		],
+		"Birkenhead North" : [
+			"Wirral Line"
+		],
+		"Birkenhead Park" : [
+			"Wirral Line"
+		],
+		"Blundellsands & Crosby" : [
+			"Northern Line"
+		],
+		"Bromborough Rake" : [
+			"Wirral Line"
+		],
+		"Brunswick" : [
+			"Northern Line"
+		],
+		"Chester" : [
+			"Wirral Line"
+		],
+		"Capenhurst" : [
+			"Wirral Line"
+		],
+		"Central" : [
+			"Northern Line",
+			"Wirral Line"
+		],
+		"Conway Park" : [
+			"Wirral Line"
+		],
+		"Cressington" : [
+			"Northern Line"
+		],
+		"Eastham Rake" : [
+			"Wirral Line"
+		],
+		"Ellesmere Port" : [
+			"Wirral Line"
+		],
+		"Fazakerley" : [
+			"Northern Line"
+		],
+		"Formby" : [
+			"Northern Line"
+		],
+		"Freshfield" : [
+			"Northern Line"
+		],
+		"Green Lane" : [
+			"Wirral Line"
+		],
+		"Hall Road" : [
+			"Northern Line"
+		],
+		"Hamilton Square" : [
+			"Wirral Line"
+		],
+		"Headbolt Lane" : [
+			"Northern Line"
+		],
+		"Hightown" : [
+			"Northern Line"
+		],
+		"Hillside" : [
+			"Northern Line"
+		],
+		"Hooton" : [
+			"Wirral Line"
+		],
+		"Hoylake" : [
+			"Wirral Line"
+		],
+		"Hunts Cross" : [
+			"Northern Line"
+		],
+		"James Street" : [
+			"Wirral Line"
+		],
+		"Kirkby" : [
+			"Northern Line"
+		],
+		"Kirkdale" : [
+			"Northern Line"
+		],
+		"Leasowe" : [
+			"Wirral Line"
+		],
+		"Lime Street" : [
+			"Wirral Line"
+		],
+		"Little Sutton" : [
+			"Wirral Line"
+		],
+		"Liverpool South Parkway" : [
+			"Northern Line"
+		],
+		"Maghull" : [
+			"Northern Line"
+		],
+		"Maghull North" : [
+			"Northern Line"
+		],
+		"Manor Road" : [
+			"Wirral Line"
+		],
+		"Meols" : [
+			"Wirral Line"
+		],
+		"Moorfields" : [
+			"Northern Line",
+			"Wirral Line"
+		],
+		"Moreton" : [
+			"Wirral Line"
+		],
+		"New Brighton" : [
+			"Wirral Line"
+		],
+		"New Strand" : [
+			"Northern Line"
+		],
+		"Old Roan" : [
+			"Northern Line"
+		],
+		"Oriel Road" : [
+			"Northern Line"
+		],
+		"Ormskirk" : [
+			"Northern Line"
+		],
+		"Orrell Park" : [
+			"Northern Line"
+		],
+		"Overpool" : [
+			"Wirral Line"
+		],
+		"Port Sunlight" : [
+			"Wirral Line"
+		],
+		"Rice Lane" : [
+			"Northern Line"
+		],
+		"Rock Ferry" : [
+			"Wirral Line"
+		],
+		"Sandhills" : [
+			"Northern Line"
+		],
+		"Seaforth & Litherland" : [
+			"Northern Line"
+		],
+		"Southport" : [
+			"Northern Line"
+		],
+		"Spital" : [
+			"Wirral Line"
+		],
+		"St Michaels" : [
+			"Northern Line"
+		],
+		"Town Green" : [
+			"Northern Line"
+		],
+		"Wallasey Grove Road" : [
+			"Wirral Line"
+		],
+		"Wallasey Village" : [
+			"Wirral Line"
+		],
+		"Walton" : [
+			"Northern Line"
+		],
+		"Waterloo" : [
+			"Northern Line"
+		],
+		"West Kirkby" : [
+			"Wirral Line"
+		]
+	},
+	"lines" : {
+		"Northern Line" : {
+			"Hunts Cross - Southport" : [
+				"Hunts Cross",
+				"Liverpool South Parkway",
+				"Cressington",
+				"Aigburth",
+				"St Michaels",
+				"Brunswick",
+				"Central",
+				"Moorfields",
+				"Sandhills",
+				"Bank Hall",
+				"Oriel Road",
+				"New Strand",
+				"Seaforth & Litherland",
+				"Waterloo",
+				"Blundellsands & Crosby",
+				"Hall Road",
+				"Hightown",
+				"Formby",
+				"Freshfield",
+				"Ainsdale",
+				"Hillside",
+				"Birkdale",
+				"Southport"
+			],
+			"Southport - Hunts Cross" : [
+				"Southport",
+				"Birkdale",
+				"Hillside",
+				"Ainsdale",
+				"Freshfield",
+				"Formby",
+				"Hightown",
+				"Hall Road",
+				"Blundellsands & Crosby",
+				"Waterloo",
+				"Seaforth & Litherland",
+				"New Strand",
+				"Oriel Road",
+				"Bank Hall",
+				"Sandhills",
+				"Moorfields",
+				"Central",
+				"Brunswick",
+				"St Michaels",
+				"Aigburth",
+				"Cressington",
+				"Liverpool South Parkway",
+				"Hunts Cross"
+			],
+			"Central - Ormskirk" : [
+				"Central",
+				"Moorfields",
+				"Sandhills",
+				"Kirkdale",
+				"Walton",
+				"Orrell Park",
+				"Aintree",
+				"Old Roan",
+				"Maghull",
+				"Maghull North",
+				"Town Green",
+				"Aughton",
+				"Ormskirk"
+			],
+			"Ormskirk - Central" : [
+				"Ormskirk",
+				"Aughton",
+				"Town Green",
+				"Maghull North",
+				"Maghull",
+				"Old Roan",
+				"Aintree",
+				"Orrell Park",
+				"Walton",
+				"Kirkdale",
+				"Sandhills",
+				"Moorfields",
+				"Central"
+			],
+			"Central - Headbolt Lane" : [
+				"Central",
+				"Moorfields",
+				"Sandhills",
+				"Kirkdale",
+				"Rice Lane",
+				"Fazakerley",
+				"Kirkby",
+				"Headbolt Lane"
+			],
+			"Headbolt Lane - Central" : [
+				"Headbolt Lane",
+				"Kirkby",
+				"Fazakerley",
+				"Rice Lane",
+				"Kirkdale",
+				"Sandhills",
+				"Moorfields",
+				"Central"
+			]
+		},
+		"Wirral Line" : {
+			"New Brighton - Lime Street" : [
+				"New Brighton",
+				"Wallasey Grove Road",
+				"Wallasey Village",
+				"Birkenhead North",
+				"Birkenhead Park",
+				"Conway Park",
+				"Hamilton Square",
+				"James Street",
+				"Moorfields",
+				"Lime Street"
+			],
+			"Lime Street - New Brighton" : [
+				"Lime Street",
+				"Central",
+				"James Street",
+				"Hamilton Square",
+				"Conway Park",
+				"Birkenhead Park",
+				"Birkenhead North",
+				"Wallasey Village",
+				"Wallasey Grove Road",
+				"New Brighton"
+			],
+			"West Kirkby - Lime Street" : [
+				"West Kirkby",
+				"Hoylake",
+				"Manor Road",
+				"Meols",
+				"Moreton",
+				"Leasowe",
+				"Bidston",
+				"Birkenhead North",
+				"Birkenhead Park",
+				"Conway Park",
+				"Hamilton Square",
+				"James Street",
+				"Moorfields",
+				"Lime Street"
+			],
+			"Lime Street - West Kirkby" : [
+				"Lime Street",
+				"Central",
+				"James Street",
+				"Hamilton Square",
+				"Conway Park",
+				"Birkenhead Park",
+				"Birkenhead North",
+				"Bidston",
+				"Leasowe",
+				"Moreton",
+				"Meols",
+				"Manor Road",
+				"Hoylake",
+				"West Kirkby"
+			],
+			"Chester - Lime Street" : [
+				"Chester",
+				"Bache",
+				"Capenhurst",
+				"Hooton",
+				"Eastham Rake",
+				"Bromborough Rake",
+				"Spital",
+				"Port Sunlight",
+				"Bebington",
+				"Rock Ferry",
+				"Green Lane",
+				"Birkenhead Central",
+				"Hamilton Square",
+				"James Street",
+				"Moorfields",
+				"Lime Street"
+			],
+			"Lime Street - Chester" : [
+				"Lime Street",
+				"Central",
+				"James Street",
+				"Hamilton Square",
+				"Birkenhead Central",
+				"Green Lane",
+				"Rock Ferry",
+				"Bebington",
+				"Port Sunlight",
+				"Spital",
+				"Bromborough Rake",
+				"Eastham Rake",
+				"Hooton",
+				"Capenhurst",
+				"Bache",
+				"Chester"
+			],
+			"Ellesmere Port - Lime Street" : [
+				"Ellesmere Port",
+				"Overpool",
+				"Little Sutton",
+				"Hooton",
+				"Eastham Rake",
+				"Bromborough Rake",
+				"Spital",
+				"Port Sunlight",
+				"Bebington",
+				"Rock Ferry",
+				"Green Lane",
+				"Birkenhead Central",
+				"Hamilton Square",
+				"James Street",
+				"Moorfields",
+				"Lime Street"
+			],
+			"Lime Street - Ellesmere Port" : [
+				"Lime Street",
+				"Central",
+				"James Street",
+				"Hamilton Square",
+				"Birkenhead Central",
+				"Green Lane",
+				"Rock Ferry",
+				"Bebington",
+				"Port Sunlight",
+				"Spital",
+				"Bromborough Rake",
+				"Eastham Rake",
+				"Hooton",
+				"Little Sutton",
+				"Overpool",
+				"Ellesmere Port"
+			]
+		}
+	}
+}

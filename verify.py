@@ -30,7 +30,7 @@ def verify_stations (level_json):
 				if flag:
 					print("   ERROR : station '" + station + "' not found in any services for '" + station_line + "'")
 			else:
-				print("   ERROR : line '" + station_line + "' does not exist")
+				print("   ERROR : line '" + station_line + "' serving '" + station  + "' does not exist")
 	
 def verify_services (level_json):
 	stations = level_json["stations"]
